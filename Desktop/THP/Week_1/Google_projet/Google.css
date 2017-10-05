@@ -1,0 +1,111 @@
+body
+{
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+}
+
+.logo
+{
+width: 40%;
+display: block;
+margin: 0 auto;
+margin-top: 180px;
+}
+
+div.navbar
+{
+width: 350px;
+position: absolute;
+right: 0;
+overflow: hidden;
+text-align: right;
+padding: 0 0.5em
+}
+
+li
+{
+  display: inline-block;
+  position: relative;
+}
+
+footer
+{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: #efefef;
+  height: 50px;
+}
+
+.gauche
+{
+  margin-left: 3px;
+  float: left;
+}
+
+.droite
+{
+  margin-right: 40px;
+  float: right;
+}
+
+.barre
+{
+  border: solid 1px silver;
+  box-shadow: 2px 2px 4px;
+  height: 35px;
+  width: 550px;
+  margin-top: 15px;
+}
+
+.button
+{
+  border: solid 1px silver;
+  box-shadow: 2px 2px 4px;
+  height: 30px;
+  width: 150px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.center-div
+{
+  margin: 0 auto;
+}
+
+.conteneur
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a
+{
+  color: #424242;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+#cache
+{
+  display: none;
+}
+
+#bouton
+{
+  height: 350px;
+  width: 550px;
+  font-size: 60px;
+  margin-left: 350px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+}
